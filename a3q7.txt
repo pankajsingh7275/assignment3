@@ -1,0 +1,20 @@
+
+#include <stdio.h>
+
+int main()
+{
+    float a,b,c,D;
+    printf("enter cofficient a, b, c of quadratic equation to chek type of roots in quadratic equation\n");
+    scanf("%f %f %f",&a,&b,&c);
+    D=b*b-4*a*c;
+    if(D>0)
+    printf("quadratic equation has real and distinct roots ");
+    else
+    if(D<0)
+    printf("quadratic equation has imagenary roots");
+    else
+    printf("quadratic equation has real and equal roots");
+    
+
+    return 0;
+}
