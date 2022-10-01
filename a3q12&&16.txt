@@ -1,0 +1,19 @@
+
+
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    char c;
+    printf("enter a character\n");
+    scanf("%c",&c);
+    if(c>='A'&&c<='Z')
+    printf("%c is in upper case",c);
+    if(c>='a'&&c<='z')
+    printf("%c is in lower case",c);
+    if(c>='0'&&c<='9')
+    printf("%c is a numeric",c);
+    else
+    printf("%c is a spacial character",c);
+    return 0;
+}
